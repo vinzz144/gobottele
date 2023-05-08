@@ -54,6 +54,10 @@ func main() {
 			if err != nil {
 				log.Fatal(err)
 			}
+
+			time.Sleep(time.Minute)
 		}
+
+		time.Sleep(time.Second)
 	}
 }
